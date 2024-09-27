@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601947082C941DFC001852F2 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 601947072C941DFC001852F2 /* Montserrat-Black.ttf */; };
+		6019470C2C942C5A001852F2 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6019470B2C942C59001852F2 /* Montserrat-Bold.ttf */; };
+		6019470E2C942CB4001852F2 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6019470D2C942CB4001852F2 /* Montserrat-LightItalic.ttf */; };
+		601947102C980EAF001852F2 /* Cadre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019470F2C980EAF001852F2 /* Cadre.swift */; };
+		601947142C997C28001852F2 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601947132C997C28001852F2 /* Datas.swift */; };
+		601947162C998CD5001852F2 /* Resultats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601947152C998CD5001852F2 /* Resultats.swift */; };
+		6029E0AB2CA14E0100B51C86 /* Tabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0AA2CA14E0100B51C86 /* Tabview.swift */; };
+		6029E0AD2CA14E2A00B51C86 /* favoris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0AC2CA14E2A00B51C86 /* favoris.swift */; };
+		6029E0B02CA14E6600B51C86 /* DataFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0AF2CA14E6600B51C86 /* DataFavorites.swift */; };
+		6029E0B22CA14E8A00B51C86 /* Questionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0B12CA14E8A00B51C86 /* Questionnaire.swift */; };
+		6029E0B42CA14EE300B51C86 /* imgButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0B32CA14EE300B51C86 /* imgButton.swift */; };
+		6029E0B62CA14F0C00B51C86 /* dataTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0B52CA14F0C00B51C86 /* dataTip.swift */; };
+		6029E0B82CA150AA00B51C86 /* PageConseils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0B72CA150AA00B51C86 /* PageConseils.swift */; };
+		6029E0BA2CA167F400B51C86 /* DatasQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0B92CA167F400B51C86 /* DatasQuestions.swift */; };
+		6029E0BE2CA19D8600B51C86 /* Questionnaire2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029E0BD2CA19D8600B51C86 /* Questionnaire2.swift */; };
+		6066D0B12C9DA489004DB9A5 /* FichePlante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066D0B02C9DA489004DB9A5 /* FichePlante.swift */; };
+		6066D0B52C9DA748004DB9A5 /* ExtractedViewIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066D0B42C9DA748004DB9A5 /* ExtractedViewIcons.swift */; };
+		6066D0B72C9DA7A0004DB9A5 /* ExtractedViewPlante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066D0B62C9DA7A0004DB9A5 /* ExtractedViewPlante.swift */; };
+		6066D0BA2C9DA839004DB9A5 /* ExtractedViewPourcentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066D0B92C9DA839004DB9A5 /* ExtractedViewPourcentage.swift */; };
+		60770B4A2C9D6EFF00609076 /* Carroussel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60770B492C9D6EFF00609076 /* Carroussel.swift */; };
+		60B0C85C2CA301CA00646C97 /* favoris_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0C85B2CA301CA00646C97 /* favoris_.swift */; };
+		60C2B1252CA2F4290066B7CC /* Questionnaire3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2B1242CA2F4290066B7CC /* Questionnaire3.swift */; };
+		60C2B1272CA2F5780066B7CC /* Questionnaire4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2B1262CA2F5780066B7CC /* Questionnaire4.swift */; };
+		60DF93D12C91D379006E6726 /* PlantasticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF93D02C91D379006E6726 /* PlantasticApp.swift */; };
+		60DF93D32C91D379006E6726 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF93D22C91D379006E6726 /* ContentView.swift */; };
+		60DF93D52C91D37A006E6726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DF93D42C91D37A006E6726 /* Assets.xcassets */; };
+		60DF93D82C91D37A006E6726 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DF93D72C91D37A006E6726 /* Preview Assets.xcassets */; };
+		60DF93DF2C91D38F006E6726 /* Catalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF93DE2C91D38F006E6726 /* Catalogue.swift */; };
+		60DF93E32C91E324006E6726 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60DF93E12C91E324006E6726 /* Montserrat-VariableFont_wght.ttf */; };
+		60DF93E42C91E324006E6726 /* LeckerliOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60DF93E22C91E324006E6726 /* LeckerliOne-Regular.ttf */; };
+		60DF93E82C92CC5D006E6726 /* CadrePlante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF93E72C92CC5D006E6726 /* CadrePlante.swift */; };
+		60EBC8AD2CA3072200ADC807 /* ExtractedViewConseils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC8AC2CA3072200ADC807 /* ExtractedViewConseils.swift */; };
+		60FB94702C9AB56000A932A8 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FB946F2C9AB56000A932A8 /* ProgressBar.swift */; };
+		60FB94722C9ACC0700A932A8 /* PourIntegrerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FB94712C9ACC0700A932A8 /* PourIntegrerBar.swift */; };
+		60FB94962C9B157D00A932A8 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FB94952C9B157D00A932A8 /* Loader.swift */; };
+		60FB94982C9B193000A932A8 /* PourIntegrerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FB94972C9B193000A932A8 /* PourIntegrerLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		601947072C941DFC001852F2 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		6019470B2C942C59001852F2 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		6019470D2C942CB4001852F2 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		6019470F2C980EAF001852F2 /* Cadre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadre.swift; sourceTree = "<group>"; };
+		601947132C997C28001852F2 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		601947152C998CD5001852F2 /* Resultats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resultats.swift; sourceTree = "<group>"; };
+		6029E0AA2CA14E0100B51C86 /* Tabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabview.swift; sourceTree = "<group>"; };
+		6029E0AC2CA14E2A00B51C86 /* favoris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoris.swift; sourceTree = "<group>"; };
+		6029E0AF2CA14E6600B51C86 /* DataFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFavorites.swift; sourceTree = "<group>"; };
+		6029E0B12CA14E8A00B51C86 /* Questionnaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questionnaire.swift; sourceTree = "<group>"; };
+		6029E0B32CA14EE300B51C86 /* imgButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgButton.swift; sourceTree = "<group>"; };
+		6029E0B52CA14F0C00B51C86 /* dataTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTip.swift; sourceTree = "<group>"; };
+		6029E0B72CA150AA00B51C86 /* PageConseils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageConseils.swift; sourceTree = "<group>"; };
+		6029E0B92CA167F400B51C86 /* DatasQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasQuestions.swift; sourceTree = "<group>"; };
+		6029E0BD2CA19D8600B51C86 /* Questionnaire2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questionnaire2.swift; sourceTree = "<group>"; };
+		6066D0B02C9DA489004DB9A5 /* FichePlante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichePlante.swift; sourceTree = "<group>"; };
+		6066D0B42C9DA748004DB9A5 /* ExtractedViewIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedViewIcons.swift; sourceTree = "<group>"; };
+		6066D0B62C9DA7A0004DB9A5 /* ExtractedViewPlante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedViewPlante.swift; sourceTree = "<group>"; };
+		6066D0B92C9DA839004DB9A5 /* ExtractedViewPourcentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedViewPourcentage.swift; sourceTree = "<group>"; };
+		60770B492C9D6EFF00609076 /* Carroussel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carroussel.swift; sourceTree = "<group>"; };
+		60B0C85B2CA301CA00646C97 /* favoris_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = favoris_.swift; path = Plantastic/favoris_.swift; sourceTree = SOURCE_ROOT; };
+		60C2B1242CA2F4290066B7CC /* Questionnaire3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questionnaire3.swift; sourceTree = "<group>"; };
+		60C2B1262CA2F5780066B7CC /* Questionnaire4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questionnaire4.swift; sourceTree = "<group>"; };
+		60DF93CD2C91D379006E6726 /* Plantastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plantastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DF93D02C91D379006E6726 /* PlantasticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantasticApp.swift; sourceTree = "<group>"; };
+		60DF93D22C91D379006E6726 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60DF93D42C91D37A006E6726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60DF93D72C91D37A006E6726 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60DF93DE2C91D38F006E6726 /* Catalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalogue.swift; sourceTree = "<group>"; };
+		60DF93E02C91E2F9006E6726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		60DF93E12C91E324006E6726 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		60DF93E22C91E324006E6726 /* LeckerliOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeckerliOne-Regular.ttf"; sourceTree = "<group>"; };
+		60DF93E72C92CC5D006E6726 /* CadrePlante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadrePlante.swift; sourceTree = "<group>"; };
+		60EBC8AC2CA3072200ADC807 /* ExtractedViewConseils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedViewConseils.swift; sourceTree = "<group>"; };
+		60FB946F2C9AB56000A932A8 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		60FB94712C9ACC0700A932A8 /* PourIntegrerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourIntegrerBar.swift; sourceTree = "<group>"; };
+		60FB94952C9B157D00A932A8 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		60FB94972C9B193000A932A8 /* PourIntegrerLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourIntegrerLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60DF93CA2C91D379006E6726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6029E0AE2CA14E4B00B51C86 /* Eusebia */ = {
+			isa = PBXGroup;
+			children = (
+				6029E0B52CA14F0C00B51C86 /* dataTip.swift */,
+				6029E0AF2CA14E6600B51C86 /* DataFavorites.swift */,
+				6029E0AC2CA14E2A00B51C86 /* favoris.swift */,
+				6029E0B72CA150AA00B51C86 /* PageConseils.swift */,
+			);
+			path = Eusebia;
+			sourceTree = "<group>";
+		};
+		6029E0BF2CA1A1B700B51C86 /* Stella */ = {
+			isa = PBXGroup;
+			children = (
+				6066D0B02C9DA489004DB9A5 /* FichePlante.swift */,
+			);
+			path = Stella;
+			sourceTree = "<group>";
+		};
+		6066D0B82C9DA7C3004DB9A5 /* Extracted Views */ = {
+			isa = PBXGroup;
+			children = (
+				6066D0B62C9DA7A0004DB9A5 /* ExtractedViewPlante.swift */,
+				6066D0B42C9DA748004DB9A5 /* ExtractedViewIcons.swift */,
+				6066D0B92C9DA839004DB9A5 /* ExtractedViewPourcentage.swift */,
+				60EBC8AC2CA3072200ADC807 /* ExtractedViewConseils.swift */,
+			);
+			path = "Extracted Views";
+			sourceTree = "<group>";
+		};
+		60DF93C42C91D379006E6726 = {
+			isa = PBXGroup;
+			children = (
+				60DF93CF2C91D379006E6726 /* Plantastic */,
+				60DF93CE2C91D379006E6726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60DF93CE2C91D379006E6726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60DF93CD2C91D379006E6726 /* Plantastic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60DF93CF2C91D379006E6726 /* Plantastic */ = {
+			isa = PBXGroup;
+			children = (
+				60DF93E02C91E2F9006E6726 /* Info.plist */,
+				601947072C941DFC001852F2 /* Montserrat-Black.ttf */,
+				60DF93E22C91E324006E6726 /* LeckerliOne-Regular.ttf */,
+				60DF93E12C91E324006E6726 /* Montserrat-VariableFont_wght.ttf */,
+				6019470B2C942C59001852F2 /* Montserrat-Bold.ttf */,
+				6019470D2C942CB4001852F2 /* Montserrat-LightItalic.ttf */,
+				60DF93D02C91D379006E6726 /* PlantasticApp.swift */,
+				6029E0AA2CA14E0100B51C86 /* Tabview.swift */,
+				60DF93DE2C91D38F006E6726 /* Catalogue.swift */,
+				601947132C997C28001852F2 /* Datas.swift */,
+				6066D0B82C9DA7C3004DB9A5 /* Extracted Views */,
+				60770B492C9D6EFF00609076 /* Carroussel.swift */,
+				601947152C998CD5001852F2 /* Resultats.swift */,
+				60FB946F2C9AB56000A932A8 /* ProgressBar.swift */,
+				60FB94952C9B157D00A932A8 /* Loader.swift */,
+				6029E0B12CA14E8A00B51C86 /* Questionnaire.swift */,
+				6029E0BD2CA19D8600B51C86 /* Questionnaire2.swift */,
+				60C2B1242CA2F4290066B7CC /* Questionnaire3.swift */,
+				60C2B1262CA2F5780066B7CC /* Questionnaire4.swift */,
+				6029E0B92CA167F400B51C86 /* DatasQuestions.swift */,
+				60B0C85B2CA301CA00646C97 /* favoris_.swift */,
+				60F180562CA2FD170023F8E5 /* work */,
+				6029E0BF2CA1A1B700B51C86 /* Stella */,
+				6029E0AE2CA14E4B00B51C86 /* Eusebia */,
+				60DF93D42C91D37A006E6726 /* Assets.xcassets */,
+				60DF93D62C91D37A006E6726 /* Preview Content */,
+			);
+			path = Plantastic;
+			sourceTree = "<group>";
+		};
+		60DF93D62C91D37A006E6726 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60DF93D72C91D37A006E6726 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60F180562CA2FD170023F8E5 /* work */ = {
+			isa = PBXGroup;
+			children = (
+				60FB94972C9B193000A932A8 /* PourIntegrerLoader.swift */,
+				60FB94712C9ACC0700A932A8 /* PourIntegrerBar.swift */,
+				6019470F2C980EAF001852F2 /* Cadre.swift */,
+				60DF93E72C92CC5D006E6726 /* CadrePlante.swift */,
+				6029E0B32CA14EE300B51C86 /* imgButton.swift */,
+				60DF93D22C91D379006E6726 /* ContentView.swift */,
+			);
+			path = work;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60DF93CC2C91D379006E6726 /* Plantastic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DF93DB2C91D37A006E6726 /* Build configuration list for PBXNativeTarget "Plantastic" */;
+			buildPhases = (
+				60DF93C92C91D379006E6726 /* Sources */,
+				60DF93CA2C91D379006E6726 /* Frameworks */,
+				60DF93CB2C91D379006E6726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plantastic;
+			productName = Plantastic;
+			productReference = 60DF93CD2C91D379006E6726 /* Plantastic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60DF93C52C91D379006E6726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					60DF93CC2C91D379006E6726 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 60DF93C82C91D379006E6726 /* Build configuration list for PBXProject "Plantastic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60DF93C42C91D379006E6726;
+			productRefGroup = 60DF93CE2C91D379006E6726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60DF93CC2C91D379006E6726 /* Plantastic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60DF93CB2C91D379006E6726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DF93D82C91D37A006E6726 /* Preview Assets.xcassets in Resources */,
+				6019470E2C942CB4001852F2 /* Montserrat-LightItalic.ttf in Resources */,
+				601947082C941DFC001852F2 /* Montserrat-Black.ttf in Resources */,
+				6019470C2C942C5A001852F2 /* Montserrat-Bold.ttf in Resources */,
+				60DF93E32C91E324006E6726 /* Montserrat-VariableFont_wght.ttf in Resources */,
+				60DF93D52C91D37A006E6726 /* Assets.xcassets in Resources */,
+				60DF93E42C91E324006E6726 /* LeckerliOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DF93C92C91D379006E6726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FB94982C9B193000A932A8 /* PourIntegrerLoader.swift in Sources */,
+				60DF93D32C91D379006E6726 /* ContentView.swift in Sources */,
+				60C2B1272CA2F5780066B7CC /* Questionnaire4.swift in Sources */,
+				6066D0BA2C9DA839004DB9A5 /* ExtractedViewPourcentage.swift in Sources */,
+				6029E0B62CA14F0C00B51C86 /* dataTip.swift in Sources */,
+				60FB94722C9ACC0700A932A8 /* PourIntegrerBar.swift in Sources */,
+				60C2B1252CA2F4290066B7CC /* Questionnaire3.swift in Sources */,
+				6029E0BE2CA19D8600B51C86 /* Questionnaire2.swift in Sources */,
+				60FB94702C9AB56000A932A8 /* ProgressBar.swift in Sources */,
+				601947162C998CD5001852F2 /* Resultats.swift in Sources */,
+				6029E0AD2CA14E2A00B51C86 /* favoris.swift in Sources */,
+				6066D0B12C9DA489004DB9A5 /* FichePlante.swift in Sources */,
+				60770B4A2C9D6EFF00609076 /* Carroussel.swift in Sources */,
+				6029E0BA2CA167F400B51C86 /* DatasQuestions.swift in Sources */,
+				6066D0B72C9DA7A0004DB9A5 /* ExtractedViewPlante.swift in Sources */,
+				601947142C997C28001852F2 /* Datas.swift in Sources */,
+				6066D0B52C9DA748004DB9A5 /* ExtractedViewIcons.swift in Sources */,
+				60EBC8AD2CA3072200ADC807 /* ExtractedViewConseils.swift in Sources */,
+				6029E0B22CA14E8A00B51C86 /* Questionnaire.swift in Sources */,
+				6029E0B82CA150AA00B51C86 /* PageConseils.swift in Sources */,
+				6029E0B42CA14EE300B51C86 /* imgButton.swift in Sources */,
+				60DF93D12C91D379006E6726 /* PlantasticApp.swift in Sources */,
+				60DF93DF2C91D38F006E6726 /* Catalogue.swift in Sources */,
+				60B0C85C2CA301CA00646C97 /* favoris_.swift in Sources */,
+				60FB94962C9B157D00A932A8 /* Loader.swift in Sources */,
+				601947102C980EAF001852F2 /* Cadre.swift in Sources */,
+				60DF93E82C92CC5D006E6726 /* CadrePlante.swift in Sources */,
+				6029E0B02CA14E6600B51C86 /* DataFavorites.swift in Sources */,
+				6029E0AB2CA14E0100B51C86 /* Tabview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60DF93D92C91D37A006E6726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60DF93DA2C91D37A006E6726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DF93DC2C91D37A006E6726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plantastic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Plantastic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurelie.Plantastic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60DF93DD2C91D37A006E6726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plantastic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Plantastic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurelie.Plantastic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60DF93C82C91D379006E6726 /* Build configuration list for PBXProject "Plantastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DF93D92C91D37A006E6726 /* Debug */,
+				60DF93DA2C91D37A006E6726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60DF93DB2C91D37A006E6726 /* Build configuration list for PBXNativeTarget "Plantastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DF93DC2C91D37A006E6726 /* Debug */,
+				60DF93DD2C91D37A006E6726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60DF93C52C91D379006E6726 /* Project object */;
+}
